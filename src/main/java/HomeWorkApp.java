@@ -13,15 +13,14 @@ public class HomeWorkApp {
     public static String checkSumSign() {
         int a = 5;
         int b = 10;
-
         String aa = "Сумма положительная";
         String bb = "Сумма отрицательная";
+
         if (a + b >= 0) {
             return aa;
         } else {
             return bb;
         }
-
     }
 
     public static String printColor() {
@@ -35,7 +34,6 @@ public class HomeWorkApp {
         } else {
             return "Зеленый";
         }
-
     }
 
     public static String compareNumbers() {
@@ -46,15 +44,5 @@ public class HomeWorkApp {
         } else {
             return "a < b";
         }
-
-
     }
-
 }
-
-
-
-
-
-
-
